@@ -10,3 +10,5 @@ Example, [node Basics/Hello.js] =>  Besics is folder directory/ Hello.js  is  fi
 
 For Clear Terminal in codespace use [ctrl+L].
 
+In JavaScript, for use newer version we simply write ["use strict";].
+
