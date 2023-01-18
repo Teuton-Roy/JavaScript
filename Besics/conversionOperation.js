@@ -75,12 +75,17 @@ let value = 3
 let negval = -value
 console.log(negval);
 
-console.log(2+2);
-console.log(2-2);
-console.log(2*2);
-console.log(2**3); // double ** means, 2 to the power 3 = 8//
-console.log(2/3);
-console.log(5%3);
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3); // double ** means, 2 to the power 3 = 8//
+// console.log(2/3);
+// console.log(5%3);
 
-console.log();
+
+let str1 = 'Teuton' 
+let str2 = ' Roy' 
+let str3 = str1 + str2
+console.log(str3);
+
 console.log();
