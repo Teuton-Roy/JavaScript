@@ -22,3 +22,5 @@
     That's why (3) null >= 0 is true and (1) null > 0 is false..
 */
 
+// === 
+console.log("2" === 2);
