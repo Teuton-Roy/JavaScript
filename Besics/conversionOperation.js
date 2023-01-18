@@ -83,9 +83,16 @@ console.log(negval);
 // console.log(5%3);
 
 
-let str1 = 'Teuton' 
-let str2 = ' Roy' 
-let str3 = str1 + str2
-console.log(str3);
+// let str1 = 'Teuton' 
+// let str2 = ' Roy' 
+// let str3 = str1 + str2
+// console.log(str3);
 
-console.log();
+console.log('1' + 2);//return 12
+console.log(2 + '1');//return 21
+
+console.log("1" + 2 + 2); //return 122
+console.log(1 + 2 + "2"); // return 32 
+//all happens for ToPrimitive//
+
+
