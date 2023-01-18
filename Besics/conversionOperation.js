@@ -68,3 +68,19 @@ console.log(booleanisLogedIn2); //true//
 
 //---------------------------------------------------------------------------------//
 
+
+//********************************************Operations***************************************//
+
+let value = 3
+let negval = -value
+console.log(negval);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3); // double ** means, 2 to the power 3 = 8//
+console.log(2/3);
+console.log(5%3);
+
+console.log();
+console.log();
