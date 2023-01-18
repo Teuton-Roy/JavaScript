@@ -96,3 +96,7 @@ console.log(1 + 2 + "2"); // return 32
 //all happens for ToPrimitive//
 
 
+//prefix and postfix//
+ let gameCounter = 100
+ gameCounter++;
+ console.log(gameCounter);
