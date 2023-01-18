@@ -100,3 +100,11 @@ console.log(1 + 2 + "2"); // return 32
  let gameCounter = 100
  gameCounter++;
  console.log(gameCounter);
+
+
+ let age = "23"
+ console.log(typeof(age));
+
+ let valueInNumber = Number(age)
+ console.log(typeof(valueInNumber));
+ console.log(valueInNumber);
