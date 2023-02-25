@@ -12,3 +12,54 @@ For Clear Terminal in codespace use [ctrl+L].
 
 In JavaScript, for use newer version we simply write ["use strict";].
 
+
+# how to access in object?
+
+using (.)
+let userOne = {
+    email: "abcd@gmail.com",
+    upi: "00000000000@upi",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "abc@gmail.com",
+userTwo.upi = "1234567890@upi"
+
+console.log(userOne);
+console.log(userTwo);
+
+
+# Stack and Heap memory in js?
+//example of stack memory
+let myName = "Teuton";
+
+let anotherName = myName;
+anotherName = "Roy"
+
+
+console.log(anotherName);
+console.log(myName);
+//Ouput:
+Roy
+Teuton
+
+//example of heap memory
+let userOne = {
+    email: "abcd@gmail.com",
+    upi: "00000000000@upi",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "abc@gmail.com", //accessing//
+userTwo.upi = "1234567890@upi"  //accessing// 
+
+console.log(userOne);
+console.log(userTwo);
+//Output:
+{ email: 'abc@gmail.com', upi: '1234567890@upi' }
+{ email: 'abc@gmail.com', upi: '1234567890@upi' }
+
+
+
