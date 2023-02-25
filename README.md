@@ -78,13 +78,13 @@ New version of string concatination is using backtrick[``]....
 Benefits of using backtrick[``]: String interpolations.  
 Means, we make placeholder in html forms whatever variables are there directly inject.  
 
-//example//  
+//example   
 const name = "Teuton";  
 const age = 24;  
 
 console.log(`Hello my name is ${name} and my age is ${age}.`);  
 
-//Output//
+//Output  
 Hello my name is Teuton and my age is 24.
 
 
