@@ -14,3 +14,8 @@ const myName = new String("Teuton");
 
 //new keyword means, using object of javascript//
 //Behind it invocke the object//
+console.log(myName[0]);
+console.log(myName.__proto__);
+
+console.log(myName.length);
+console.log(myName.toUpperCase());
