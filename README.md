@@ -64,4 +64,30 @@ console.log(userTwo);
 
 
 
+# String Concatination?  
+
+older version is using (+)  
+const name = "Teuton";  
+const age = 24;  
+
+//concatination [old version]  
+console.log(name + age );  
+
+New version of string concatination is using backtrick[``]....  
+
+Benefits of using backtrick[``]: String interpolations.  
+Means, we make placeholder in html forms whatever variables are there directly inject.  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
