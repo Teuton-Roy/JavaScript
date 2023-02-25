@@ -36,3 +36,44 @@ console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Two type of memory in JS
+    1. Stack
+    2. Heap
+
+    Stack : Memory for primitive data type
+        when we used stack memory, we can't change the value of variable
+        Bacuse, we recieve the copy of the value in stack memory.
+        
+    Heap : Memory for reference data type
+        when we used heap memory, we can change the value of variable
+        Bacuse, we recieve the reference(change in original value) of the value in heap memory.
+*/
+
+//example of stack memory
+let myName = "Teuton";
+
+let anotherName = myName;
+anotherName = "Roy"
+
+
+console.log(anotherName);
+console.log(myName);
+
+//example of heap memory
+let userOne = {
+    email: "abcd@gmail.com",
+    upi: "00000000000@upi",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "abc@gmail.com",
+userTwo.upi = "1234567890@upi"
+
+console.log(userOne);
+console.log(userTwo);
