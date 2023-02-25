@@ -15,51 +15,53 @@ In JavaScript, for use newer version we simply write ["use strict";].
 
 # how to access in object?
 
-using (.)
-let userOne = {
-    email: "abcd@gmail.com",
-    upi: "00000000000@upi",
-}
+using (.)  
 
-let userTwo = userOne;
+let userOne = {  
+    email: "abcd@gmail.com",  
+    upi: "00000000000@upi",  
+}  
 
-userTwo.email = "abc@gmail.com",
-userTwo.upi = "1234567890@upi"
+let userTwo = userOne;  
 
-console.log(userOne);
-console.log(userTwo);
+userTwo.email = "abc@gmail.com",  
+userTwo.upi = "1234567890@upi"  
 
-
-# Stack and Heap memory in js?
-//example of stack memory
-let myName = "Teuton";
-
-let anotherName = myName;
-anotherName = "Roy"
+console.log(userOne);  
+console.log(userTwo);  
 
 
-console.log(anotherName);
-console.log(myName);
-//Ouput:
-Roy
-Teuton
+# Stack and Heap memory in js?  
+//example of stack memory  
+let myName = "Teuton";  
 
-//example of heap memory
-let userOne = {
-    email: "abcd@gmail.com",
-    upi: "00000000000@upi",
-}
+let anotherName = myName;  
+anotherName = "Roy"  
 
-let userTwo = userOne;
 
-userTwo.email = "abc@gmail.com", //accessing//
-userTwo.upi = "1234567890@upi"  //accessing// 
+console.log(anotherName);  
+console.log(myName);  
+//Ouput:  
+Roy  
+Teuton  
 
-console.log(userOne);
-console.log(userTwo);
-//Output:
-{ email: 'abc@gmail.com', upi: '1234567890@upi' }
-{ email: 'abc@gmail.com', upi: '1234567890@upi' }
+//example of heap memory  
+let userOne = {  
+    email: "abcd@gmail.com",  
+    upi: "00000000000@upi",  
+}  
+
+let userTwo = userOne;   
+
+userTwo.email = "abc@gmail.com", //accessing//  
+userTwo.upi = "1234567890@upi"  //accessing//   
+
+console.log(userOne);  
+console.log(userTwo);  
+//Output:  
+{ email: 'abc@gmail.com', upi: '1234567890@upi' }  
+{ email: 'abc@gmail.com', upi: '1234567890@upi' }  
+
 
 
 
