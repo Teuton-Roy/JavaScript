@@ -10,7 +10,7 @@ console.log(name + age );
 console.log(`Hello my name is ${name} and my age is ${age}.`);
 
 //Another way to string declaration//
-const myName = new String("Teuton");
+const myName = new String("Teuton-roy");
 
 //new keyword means, using object of javascript//
 //Behind it invocke the object//
@@ -58,3 +58,5 @@ console.log(url.replace("teuton%20roy", "teuton-roy"));
 
 //Includes//
 console.log(url.includes("teuton")); //check if the string is included in the url or not//
+
+
