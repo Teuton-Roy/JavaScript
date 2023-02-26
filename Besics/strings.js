@@ -43,3 +43,18 @@ console.log(myString);
 console.log(myString.trim());
 console.log(myString.trimStart());
 console.log(myString.trimEnd());
+
+
+//Replace//
+
+const url = "https://www.google.com/teuton%20roy";
+url.replace("teuton%20roy", "teuton-roy");
+/*
+    1st parameter is the string to be replaced
+    2nd parameter is the string to replace the first parameter
+*/
+console.log(url.replace("teuton%20roy", "teuton-roy"));
+
+
+//Includes//
+console.log(url.includes("teuton")); //check if the string is included in the url or not//
