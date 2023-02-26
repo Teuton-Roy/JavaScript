@@ -60,3 +60,19 @@ console.log(url.replace("teuton%20roy", "teuton-roy"));
 console.log(url.includes("teuton")); //check if the string is included in the url or not//
 
 
+//String.prototype.split()
+
+/*
+    The split() method takes a pattern and divides a String into an ordered list of substrings by searching for the pattern, 
+    puts these substrings into an array, and returns the array.
+
+
+    Syntax
+
+    split(separator)
+    split(separator, limit)
+
+*/
+
+console.log(myName.split("-"));
+//here based on "-" we split the string and put it in an array//
