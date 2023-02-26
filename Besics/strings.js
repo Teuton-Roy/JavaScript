@@ -19,3 +19,5 @@ console.log(myName.__proto__);
 
 console.log(myName.length);
 console.log(myName.toUpperCase());
+console.log(myName.charAt(2));
+console.log(myName.indexOf("t"));
