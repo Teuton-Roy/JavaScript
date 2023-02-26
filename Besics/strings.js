@@ -30,4 +30,16 @@ console.log(newString);
 const anotherString = myName.slice(-5, 3)
 console.log(anotherString);
 
-//
+//String.prototype.trim()//
+/*
+    The trim() method removes whitespace from both ends of a string and returns a new string, 
+    without modifying the original string.
+
+    To return a new string with whitespace trimmed from just one end, use trimStart() or trimEnd().
+*/
+
+const myString = "    abc@gmail.com    "
+console.log(myString);
+console.log(myString.trim());
+console.log(myString.trimStart());
+console.log(myString.trimEnd());
