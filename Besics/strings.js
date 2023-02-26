@@ -1,4 +1,4 @@
-const name = "Teuton";
+const name = "Teuton-Roy";
 const age = 24; 
 
 //concatination [old version]
@@ -21,3 +21,13 @@ console.log(myName.length);
 console.log(myName.toUpperCase());
 console.log(myName.charAt(2));
 console.log(myName.indexOf("t"));
+
+//substring//
+const newString = myName.substring(0,5)
+console.log(newString);
+
+//Slice//
+const anotherString = myName.slice(-5, 3)
+console.log(anotherString);
+
+//
