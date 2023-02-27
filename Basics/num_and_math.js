@@ -35,4 +35,13 @@ console.log(Math.min(-1,-5,-6,-8));
 console.log(Math.max(8,6,8,7));
 
 
-log
+//Math.random()//
+console.log(Math.random()); // value lies between 0 - 1//
+console.log(Math.floor(Math.random()*10) +1); // (*10) shift left and (+1) cause minimum value need 1, and some time random gives value like 0.1 and floor take only 0 so overcome this situation we add 1.
+
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min); //Formula//
+
