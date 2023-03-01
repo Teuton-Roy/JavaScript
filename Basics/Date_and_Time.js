@@ -39,3 +39,9 @@ console.log(mydate.getDate());
 console.log(mydate.getMonth());
 console.log(myDate.getTime());
 console.log(myDate.getFullYear());
+
+// console.log(`${mydate.getDate()} is the date`);
+
+mydate.toLocaleString('default', {
+    weekday:"long"
+})
