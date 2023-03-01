@@ -16,9 +16,19 @@ console.log(myDate.getTimezoneOffset()); //-330
 console.log(typeof(myDate)); //object
 
 //created own date//
-myCreatedDate = new Date('2000, 3, 18')
-//myCreatedDate = new Date(2000, 3, 18)
+myCreatedDate = new Date('2000, 1, 18')
+myCreatedDate2 = new Date(2000, 0, 18)
 
 // for both myCreatedDate we got different result//
 
 console.log(myCreatedDate.toDateString());
+console.log(myCreatedDate2.toDateString());
+
+
+//time stamp//
+let myTimeStamp = Date.now()
+console.log(myTimeStamp);
+console.log(myCreatedDate.getTime());
+console.log(Math.floor(Date.now() / 1000));
+
+
