@@ -12,7 +12,6 @@ console.log(myDate.toLocaleTimeString()); //10:31:22 PM
 console.log(myDate.toTimeString()); //22:31:22 GMT+0530 (India Standard Time)
 console.log(myDate.toUTCString()); //Wed, 01 Mar 2023 17:31:22 GMT
 console.log(myDate.getTimezoneOffset()); //-330
-
 console.log(typeof(myDate)); //object
 
 //created own date//
@@ -45,3 +44,4 @@ console.log(myDate.getFullYear());
 mydate.toLocaleString('default', {
     weekday:"long"
 })
+
