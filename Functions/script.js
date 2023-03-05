@@ -12,10 +12,18 @@
     and it always going to do the same thing every single time.
 */
 
-function sayHi() {
-    console.log('Hello')
-    console.log('Teuton');
-}
+// function sayHi() {
+//     console.log('Hello')
+//     console.log('Teuton');
+// }
 
-//calling function
-sayHi()
+// //calling function
+// sayHi()
+
+// //function Argument
+// function sum(a, b) {
+//     console.log(a + b);
+//     console.log(b);
+// }
+
+// sum(56, 29)
