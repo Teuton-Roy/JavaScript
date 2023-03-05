@@ -1,8 +1,8 @@
-// console.log('hi');
-//oifngo
-//ognogno
-//ongfon
-// console.log('hi')
+console.log('hi');
+oifngo
+ognogno
+ongfon
+console.log('hi')
 
 /* Two console.log() are in different places and every time I change one I need make sure  
     I update the other one this is the perfect use-case of function().  
@@ -12,21 +12,21 @@
     and it always going to do the same thing every single time.
 */
 
-// function sayHi() {
-//     console.log('Hello')
-//     console.log('Teuton');
-// }
+function sayHi() {
+    console.log('Hello')
+    console.log('Teuton');
+}
 
-// //calling function
-// sayHi()
+//calling function
+sayHi()
 
-// //function Argument
-// function sum(a, b) {
-//     console.log(a + b);
-//     console.log(b);
-// }
+//function Argument
+function sum(a, b) {
+    console.log(a + b);
+    console.log(b);
+}
 
-// sum(56, 29)
+sum(56, 29)
 
 //function return
 function sum(a,b){
