@@ -27,3 +27,13 @@
 // }
 
 // sum(56, 29)
+
+//function return
+function sum(a,b){
+    return a + b
+    console.log("Never will run")
+}
+
+const sumValue = sum(2, 5)
+console.log(sumValue);
+
