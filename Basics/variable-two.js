@@ -14,6 +14,13 @@ let confirmPassword = '123456'
 let courseCount = 0
 let isLoggedInFromGoogle = false
 
-fullName = prompt('Enter your name:')
+// fullName = prompt('Enter your name:')
 //promt('') is like alert('') but it takes input from the user//
-console.log(fullName);
+// console.log(uid);
+// console.log('Full name is: '+fullName);
+
+console.log(`
+    With Unique ID: ${uid}
+    User is: ${fullName}
+    and his email is: ${email}
+`);
