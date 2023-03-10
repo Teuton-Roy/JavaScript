@@ -14,5 +14,6 @@ let confirmPassword = '123456'
 let courseCount = 0
 let isLoggedInFromGoogle = false
 
-prompt('Enter your name:')
+fullName = prompt('Enter your name:')
 //promt('') is like alert('') but it takes input from the user//
+console.log(fullName);
