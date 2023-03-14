@@ -24,5 +24,10 @@ const myArr2 = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 //3. myArr.unshife() : add new elements at the begining of the array.
 
-myArr.unshift(-1)
+// myArr.unshift(-1)
+// console.log(myArr)  
+
+//4. myArr.shift() : remove first element from the array.
+
+myArr.shift()
 console.log(myArr)
