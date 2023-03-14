@@ -48,6 +48,13 @@ const myArr2 = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 //8. myArr.slice() : copy the array.
 
-const newArr = myArr.slice(0, 3)
+// const newArr = myArr.slice(0, 3)
+// console.log(newArr);
+// console.log('B', myArr);
+
+//9. myArr.splice() : remove the element from the array.
+
+console.log(myArr);
+const newArr = myArr.splice(0, 3)
+console.log('C', myArr);
 console.log(newArr);
-console.log('B', myArr);
