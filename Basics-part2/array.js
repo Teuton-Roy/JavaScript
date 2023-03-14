@@ -39,3 +39,9 @@ const myArr2 = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 //6. myArr.indexOf() : check the index of the value in the array.
 
 // console.log(myArr.indexOf(9))
+
+//7. myArr.join() : convert array to string.
+
+const newArr = myArr.join()
+console.log(newArr)
+console.log(typeof newArr);
