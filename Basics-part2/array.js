@@ -42,6 +42,12 @@ const myArr2 = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 //7. myArr.join() : convert array to string.
 
-const newArr = myArr.join()
-console.log(newArr)
-console.log(typeof newArr);
+// const newArr = myArr.join()
+// console.log(newArr)
+// console.log(typeof newArr);
+
+//8. myArr.slice() : copy the array.
+
+const newArr = myArr.slice(0, 3)
+console.log(newArr);
+console.log('B', myArr);
