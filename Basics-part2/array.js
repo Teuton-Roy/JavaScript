@@ -29,5 +29,13 @@ const myArr2 = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 //4. myArr.shift() : remove first element from the array.
 
-myArr.shift()
-console.log(myArr)
+// myArr.shift()
+// console.log(myArr)
+
+//5. myArr.includes() : check if the value is present in the array or not.
+
+// console.log(myArr.includes(4))
+
+//6. myArr.indexOf() : check the index of the value in the array.
+
+// console.log(myArr.indexOf(9))
