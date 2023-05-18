@@ -18,9 +18,11 @@ promise.then((value) =>{
 }).then((value) => {
     console.log(value)
     let promise2 = new Promise((resolve, reject) =>{
-        resolve('promise2')
+        setTimeout(() => {
+            resolve('promise2')
+        },2000)
     })
     return promise2
 }).then((value) => {
-    console.log(value)
+    console.log('we are done')
 })
