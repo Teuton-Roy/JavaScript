@@ -4,9 +4,10 @@
 
 
 const myUser = {
-    name: "Teuton Roy",
+    "name": "Teuton",
+    "full name":"Teuton Roy",
     DOB: "18-03-2000",
-    email:"2021pgcaca070@nitjsr.ac.in",
+    "email":"2021pgcaca070@nitjsr.ac.in",
     phone: 8972028100,
     isLoggedIn: false,
     courses: ["DSA", "Web Dev", "React"],
@@ -30,3 +31,7 @@ const myUser = {
 }
 
 console.log(myUser);
+
+console.log(myUser.name);
+console.log(myUser["full name"]);
+console.log(myUser.email);
