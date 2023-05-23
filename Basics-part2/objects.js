@@ -2,11 +2,13 @@
 
 // Object literals 
 
+const symbol = Symbol("key1")
 
 const myUser = {
     "name": "Teuton",
     "full name":"Teuton Roy",
     DOB: "18-03-2000",
+    [symbol]: "Magiiii",
     "email":"2021pgcaca070@nitjsr.ac.in",
     phone: 8972028100,
     isLoggedIn: false,
