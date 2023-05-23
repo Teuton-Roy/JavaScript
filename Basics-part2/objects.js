@@ -40,6 +40,8 @@ console.log(myUser.email);
 myUser.email = "tonroy.jptt@gmail.com"
 console.log(myUser.email);
 
+//Lock the object so no one can change it..
+Object.freeze(myUser)
 
 
 
