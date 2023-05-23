@@ -43,7 +43,7 @@ myUser.email = "tonroy.jptt@gmail.com"
 console.log(myUser.email);
 
 //Lock the object so no one can change it..
-Object.freeze(myUser)
+// Object.freeze(myUser)
 
 
 
@@ -70,3 +70,11 @@ const myobj1 = {
 }
 
 console.log(myobj1[mysym1]);
+
+
+//add function to object
+
+myUser.greeting = function(){
+    console.log("Hello, Mother-Fucker Bitches Magi, Khnaki, Bessa, Noti, Chinal, Boital, Dhedhri, Chudirbai, Chudmarani, Khanki-Chudi, Nungku-Bal!");
+}
+console.log(myUser.greeting());
