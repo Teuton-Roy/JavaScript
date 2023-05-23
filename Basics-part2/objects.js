@@ -42,10 +42,6 @@ console.log(myUser.email);
 myUser.email = "tonroy.jptt@gmail.com"
 console.log(myUser.email);
 
-//Lock the object so no one can change it..
-// Object.freeze(myUser)
-
-
 
 //Declaring a symbol
 const mysym = Symbol("key1")
@@ -89,3 +85,7 @@ myUser.greetingTwo = function(){
 
 }
 console.log(myUser.greetingTwo());
+
+
+//Lock the object so no one can change it..
+Object.freeze(myUser)
