@@ -36,6 +36,10 @@ console.log(myUser.name);
 console.log(myUser["full name"]);
 console.log(myUser.email);
 
+//change value
+myUser.email = "tonroy.jptt@gmail.com"
+console.log(myUser.email);
+
 
 
 
