@@ -78,3 +78,14 @@ myUser.greeting = function(){
     console.log("Hello, Mother-Fucker Bitches Magi, Khnaki, Bessa, Noti, Chinal, Boital, Dhedhri, Chudirbai, Chudmarani, Khanki-Chudi, Nungku-Bal!");
 }
 console.log(myUser.greeting());
+
+//Add function and reference any key in our object
+
+myUser.greetingTwo = function(){
+    console.log("Hola, Magi re magi: "+this["full name"])
+    
+    //using string Interpolation..
+    console.log(`Hello My new user Mr./Mrs. ${this.name}`);
+
+}
+console.log(myUser.greetingTwo());
