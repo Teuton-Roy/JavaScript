@@ -42,9 +42,23 @@ console.log(myUser.email);
 //Declaring a symbol
 const mysym = Symbol("key1")
 
+
 // Declare a symbol and add as a object key and print it
 const myobj = {
-    mysym: "value1"
+    //using as a String
+    mysym: "value1",
 }
 
 console.log(myobj.mysym);
+console.log(typeof myobj.mysym);
+
+
+const mysym1 = Symbol("key1")
+
+const myobj1 = {
+    //using as a Symbol
+    
+    [mysym1] : "value22"
+}
+
+console.log(myobj1[mysym1]);
