@@ -35,3 +35,8 @@ console.log(myUser);
 console.log(myUser.name);
 console.log(myUser["full name"]);
 console.log(myUser.email);
+
+
+//Declaring a symbol
+const mysym = Symbol("key1")
+
