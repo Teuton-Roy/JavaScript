@@ -98,3 +98,5 @@ const User =[
 // console.log(Object.entries(newUser));
 // console.log(Object.entries(newUser.address));
 
+//how to check properties exist or not..
+console.log(newUser.hasOwnProperty('isLoggedIn'));
