@@ -10,7 +10,7 @@ myappUser.id = "@xyz1"
 myappUser.name = "Teuton Roy"
 myappUser.isLoggedIn = false
 
-// console.log(myappUser)
+console.log(myappUser)
 
 //object inside one object..
 const newUser = {
@@ -23,8 +23,8 @@ const newUser = {
         Pin:735122
     }
 }
-// console.log(newUser)
-// console.log(newUser.address.Post);
+console.log(newUser)
+console.log(newUser.address.Post);
 
 
 //Combine two objects...
@@ -63,8 +63,8 @@ const obj5 = {
 
 
 //(...) = this is called sprade operator: it's used to combine two or more objects
-// const objResult = {...obj1, ...obj2}
-// console.log(objResult);
+const objResult = {...obj1, ...obj2}
+console.log(objResult);
 
 
 const User =[
@@ -83,20 +83,20 @@ const User =[
 //how to access object form array..
 //counting start with 0..
 
-// console.log(User[0].email);
+console.log(User[0].email);
 
-// console.log(newUser);
+console.log(newUser);
 
 
 //how to access object's key..
-// console.log(Object.keys(newUser));
+console.log(Object.keys(newUser));
 
 //how to access object values..
-// console.log(Object.values(newUser));
+console.log(Object.values(newUser));
 
 // how to access object entries..
-// console.log(Object.entries(newUser));
-// console.log(Object.entries(newUser.address));
+console.log(Object.entries(newUser));
+console.log(Object.entries(newUser.address));
 
 //how to check properties exist or not..
 console.log(newUser.hasOwnProperty('isLoggedIn'));
