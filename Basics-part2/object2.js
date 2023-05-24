@@ -64,5 +64,23 @@ const obj5 = {
 
 //(...) = this is called sprade operator: it's used to combine two or more objects
 const objResult = {...obj1, ...obj2}
+// console.log(objResult);
 
-console.log(objResult);
+
+const User =[
+    {
+        id:1,
+        email:"1@gmail.com"
+    },
+    {
+        id:2,
+        email:"2@gmail.com"
+    },
+    {
+
+    }
+]
+//how to access object form array..
+//counting start with 0..
+
+console.log(User[0].email);
