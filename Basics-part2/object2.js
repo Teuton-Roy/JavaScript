@@ -85,6 +85,9 @@ const User =[
 
 // console.log(User[0].email);
 
-console.log(newUser);
+// console.log(newUser);
 //how to access object's key..
-console.log(Object.keys(newUser));
+// console.log(Object.keys(newUser));
+
+//how to access object values..
+console.log(Object.values(newUser));
