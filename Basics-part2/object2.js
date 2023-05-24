@@ -63,7 +63,7 @@ const obj5 = {
 
 
 //(...) = this is called sprade operator: it's used to combine two or more objects
-const objResult = {...obj1, ...obj2}
+// const objResult = {...obj1, ...obj2}
 // console.log(objResult);
 
 
@@ -86,6 +86,8 @@ const User =[
 // console.log(User[0].email);
 
 // console.log(newUser);
+
+
 //how to access object's key..
 // console.log(Object.keys(newUser));
 
@@ -93,5 +95,6 @@ const User =[
 // console.log(Object.values(newUser));
 
 // how to access object entries..
-console.log(Object.entries(newUser));
-console.log(Object.entries(newUser.address));
+// console.log(Object.entries(newUser));
+// console.log(Object.entries(newUser.address));
+
