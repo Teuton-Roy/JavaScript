@@ -90,4 +90,8 @@ const User =[
 // console.log(Object.keys(newUser));
 
 //how to access object values..
-console.log(Object.values(newUser));
+// console.log(Object.values(newUser));
+
+// how to access object entries..
+console.log(Object.entries(newUser));
+console.log(Object.entries(newUser.address));
