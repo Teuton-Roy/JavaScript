@@ -83,4 +83,8 @@ const User =[
 //how to access object form array..
 //counting start with 0..
 
-console.log(User[0].email);
+// console.log(User[0].email);
+
+console.log(newUser);
+//how to access object's key..
+console.log(Object.keys(newUser));
