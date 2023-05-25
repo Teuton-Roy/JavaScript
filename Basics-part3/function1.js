@@ -42,4 +42,9 @@ function addTwoNumbers(num1, num2){
     return (num1+num2)
 }
 const result = addTwoNumbers(3, 5)
-console.log("Value of the result: "+ result);
+// console.log("Value of the result: "+ result);
+
+function loginUserMessage(userName){
+    return `${userName}, you just logged in🙂`
+}
+console.log(loginUserMessage("Teuton"))
