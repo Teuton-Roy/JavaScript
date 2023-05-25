@@ -67,6 +67,7 @@ const objResult = {...obj1, ...obj2}
 console.log(objResult);
 
 
+//Object in Array
 const User =[
     {
         id:1,
