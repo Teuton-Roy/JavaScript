@@ -12,10 +12,12 @@ const course = {
     To, access every value so many time need to write this (course.)
 
     To, avoid this follow the below methods it's called De-structure
+    Also, chage the variable name if the variable is too big
 */
 
 //De-Structor..
-const {courseInstructor, price,courseName} = course
-console.log(courseInstructor);
+const {courseInstructor: master, price,courseName} = course
+console.log(master);
 console.log(price);
 console.log(courseName);
+
