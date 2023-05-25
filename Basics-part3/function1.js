@@ -45,6 +45,12 @@ const result = addTwoNumbers(3, 5)
 // console.log("Value of the result: "+ result);
 
 function loginUserMessage(userName){
+    if(!userName){
+        console.log("Jhat-k-bal, mujhe kaise pata chalega tera naam, laure naam dala kar chutiya sala..")
+        return    
+    }
     return `${userName}, you just logged in🙂`
 }
-console.log(loginUserMessage("Teuton"))
+// console.log(loginUserMessage("Teuton"))
+// console.log(loginUserMessage("")) //this is empty string
+console.log(loginUserMessage()) //this is undefined
