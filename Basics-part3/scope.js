@@ -46,3 +46,19 @@ if(true){
     // console.log(website); //outside scope
 }
 // console.log(name); //outside scope
+
+
+
+console.log(addone(5)); //before declaration we can use..
+
+function addone(value){
+    return value+1;
+}
+
+
+// addTwo(5) //before declaration we cann't use../
+const addTwo = function(value){
+    return value+2;
+}
+
+console.log(addTwo(5));
