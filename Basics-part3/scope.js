@@ -34,3 +34,15 @@ function one() {
 }
 
 one()
+
+
+if(true){
+    const name ='Teuton'
+
+    if(name === 'Teuton'){
+        const website = ' youtube'
+        console.log(name + website);
+    }
+    // console.log(website); //outside scope
+}
+// console.log(name); //outside scope
