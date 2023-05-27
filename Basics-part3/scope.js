@@ -32,7 +32,6 @@ function one() {
 
     two()
 }
-
 one()
 
 
