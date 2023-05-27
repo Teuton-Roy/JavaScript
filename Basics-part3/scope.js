@@ -17,4 +17,20 @@ if (true) {
 // console.log(a);
 // console.log(b);
 console.log(a); //this the problem of the var
- 
+
+
+//Nested Scope...
+
+function one() {
+    const username = 'Teuton Roy'
+
+    function two() {
+        const website = 'youtube'
+        console.log(username)
+    }
+    // console.log(website);  //cann't access here cause website access only inside the function two//
+
+    two()
+}
+
+one()
