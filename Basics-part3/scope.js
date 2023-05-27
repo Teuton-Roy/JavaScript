@@ -16,4 +16,5 @@ if (true) {
 
 // console.log(a);
 // console.log(b);
-console.log(a); //this the problem of the var 
+console.log(a); //this the problem of the var
+ 
