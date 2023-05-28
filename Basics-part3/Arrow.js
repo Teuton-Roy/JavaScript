@@ -27,6 +27,15 @@ const User = {
 
 // function cigratte (){
 //     const userName = 'Teuton Roy'
-//     console.log(this.userName);   it gives undifine, so [this.] keyword can't use in function..
+//     console.log(this.userName);   it gives undefine, so [this.] keyword can't use in function..
 // }
 // cigratte()
+
+
+// const cigratte = function(){
+//     const userName = 'Teuton Roy'
+//     console.log(this.userName);     here also gives undefine
+// }
+// cigratte()
+
+
