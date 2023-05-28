@@ -43,6 +43,10 @@ const User = {
 // const bidi = () => {
 // }
 
-const sutta = () => {
-    
-}
+// const sutta = () => {
+//     let name = 'Teu'       
+//     console.log(this.name);   //Inside Arroe () => {} function aslo can't use the [this.] keyword
+// }
+// sutta()
+
+
