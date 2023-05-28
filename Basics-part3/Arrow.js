@@ -50,3 +50,15 @@ const User = {
 // sutta()
 
 
+//Basic Arrow function syntax..
+// const addTwo = (num1, num2) => {
+//     return num1+num2
+// }
+// console.log(addTwo(5,6));
+
+//Implicite arrow function
+// const addTwo = (num1, num2) => num1+num2
+// const addTwo = (num1, num2) => (num1+num2)
+//console.log(addTwo(5,6));
+
+
