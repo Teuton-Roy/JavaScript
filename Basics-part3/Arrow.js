@@ -62,3 +62,8 @@ const User = {
 //console.log(addTwo(5,6));
 
 
+// const output = () => {username:'teuton'} //within {} brackets can't return objects
+// console.log(output());      
+
+const output = () => ({username:'teuton'}) //for return object ({}) we need to wrap with paranthisis..
+console.log(output());
