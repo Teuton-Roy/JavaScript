@@ -39,3 +39,10 @@ const User = {
 // cigratte()
 
 
+//Defination of arrow function...
+// const bidi = () => {
+// }
+
+const sutta = () => {
+    
+}
