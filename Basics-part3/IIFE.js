@@ -24,3 +24,6 @@
     console.log(`IIFE  connected!!`);
 })();
 
+( (name) => {
+    console.log(`${name}, Your IIFE  connected`);
+})(`Teuton`);
