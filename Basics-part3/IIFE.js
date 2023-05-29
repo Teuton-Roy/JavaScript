@@ -14,6 +14,8 @@
     2nd paranthesis where the function excution heppens ()
     ()()
 
+    Why we use IIFE ?
+        whatever we declare in Global Scope(variables) remove their polution
+        for that's why we use IIFE.
 
-    
 */
