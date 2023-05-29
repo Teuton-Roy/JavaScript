@@ -3,6 +3,7 @@
 //IIFE function..
 
 (function sutta(){
+    //named IIFE
     console.log('Sutta-wala, DB-Connected😁');
 })();
 
@@ -21,9 +22,11 @@
 */
 
 ( () => {
+    //Unamed IIFE//
     console.log(`IIFE  connected!!`);
 })();
 
 ( (name) => {
+    //IIFE with Passing Parameters..
     console.log(`${name}, Your IIFE  connected`);
 })(`Teuton`);
