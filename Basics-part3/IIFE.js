@@ -4,7 +4,7 @@
 
 (function sutta(){
     console.log('Sutta-wala, DB-Connected😁');
-})()
+})();
 
 
 /*
@@ -19,3 +19,4 @@
         for that's why we use IIFE.
 
 */
+
