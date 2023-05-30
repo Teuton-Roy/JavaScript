@@ -7,7 +7,7 @@ if (isLoggedIn) {
 }
 
 //Operators
-//<, >, >=, <=, !=, ==, ===
+//<, >, >=, <=, !=, ==, ===, !==
 // === used for data type checking and also for value checking
 
 if(2 === '2'){
