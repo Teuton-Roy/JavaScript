@@ -28,3 +28,20 @@ else{
 
 // const paisa = 1100
 // if(paisa > 500) console.log("Ameer hy tu toh!"), console.log("thoda udhari dy mujhe");
+
+
+//nested condition..
+
+// const paisa = 1000
+// if(paisa < 500){
+//     console.log("Aur paisa chahiye tere account mai");
+// }
+// else if(paisa < 750){
+//     console.log("Paisa do re aur");
+// }
+// else if(paisa < 900){
+//     console.log("chal jayega");
+// }
+// else{
+//     console.log("bht paisa hy tere pass");
+// }
