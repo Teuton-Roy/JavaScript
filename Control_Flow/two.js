@@ -10,20 +10,42 @@
 //         break;
 // }
 
-const month = 3
+// const month = 3
+// const name = 'Teuton Roy, Pragna Biswas, Shivani Shrivasthab'
+// switch (month) {
+//     case 1:
+//         console.log(`January`)
+//         break;
+//     case 2:
+//         console.log(`February`);
+//         break;
+//     case 3:
+//         console.log(`March! paida huya hy es mahine mai ${name}.`);
+//         break;
+//     case 4:
+//         console.log(`April`);
+//         break;
+//     default:
+//         console.log(`Default hy`);
+//         break;
+// }
+
+
+const month = "March"
 const name = 'Teuton Roy, Pragna Biswas, Shivani Shrivasthab'
 switch (month) {
-    case 1:
+    case 'January':
         console.log(`January`)
         break;
-    case 2:
+    case 'February':
         console.log(`February`);
         break;
-    case 3:
+    case 'March':
         console.log(`March! paida huya hy es mahine mai ${name}.`);
         break;
-    case 4:
+    case 'April':
         console.log(`April`);
+        break;
     default:
         console.log(`Default hy`);
         break;
