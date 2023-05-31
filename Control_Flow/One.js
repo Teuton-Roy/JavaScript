@@ -24,4 +24,7 @@ else{
     console.log("weather mast ho rha nh, chlo gum k ate hy");
 }
 
+//implesite scope..
 
+// const paisa = 1100
+// if(paisa > 500) console.log("Ameer hy tu toh!"), console.log("thoda udhari dy mujhe");
