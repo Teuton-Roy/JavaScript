@@ -10,7 +10,18 @@ if (isLoggedIn) {
 //<, >, >=, <=, !=, ==, ===, !==
 // === used for data type checking and also for value checking
 
-if(2 === '2'){
-    console.log("ho geya!");
+//if-else..
+
+// if(2 === '2'){
+//     console.log("ho geya!");
+// }
+
+const temparature = 35
+if(temparature <= 45){
+    console.log("Bahar mat jao bht dhoop hai..");
 }
+else{
+    console.log("weather mast ho rha nh, chlo gum k ate hy");
+}
+
 
