@@ -46,3 +46,17 @@ else{
 //     console.log("bht paisa hy tere pass");
 // }
 
+// && and ||
+
+const isSignedIn = true
+const debitcare = true
+const isLoggedInFromGoogle = false
+const isLoggedInFromPhone_no = true
+
+if(isSignedIn && debitcare){
+    console.log(`Haan! karid sakte ho abhi`);
+}
+
+if(isLoggedInFromGoogle || isLoggedInFromPhone_no){
+    console.log(`thik hy chalega`);
+}
