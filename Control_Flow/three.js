@@ -34,3 +34,9 @@ if (Object.keys(emptyObj).length === 0) {
 // val1 = null ?? 20 ?? 30
 // console.log(val1);
 
+//Terniary Operator.. [condition ? true : false]
+//Point to Noted, Terniary Operator and Nullish Coalescing Operator are not same..
+
+const ice = 100
+ice <= 80 ? console.log(`Less than 80`) : console.log(`More than 80`);
+
