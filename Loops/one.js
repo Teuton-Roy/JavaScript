@@ -20,3 +20,14 @@
 //     const ele = arr[i]
 //     console.log(ele);
 // }
+
+
+//Break and Continue
+
+// for(let i = 0; i<= 20; i++){
+//     if(i == 3){
+//         console.log(`Detected ${i}`);
+//         break;
+//     }
+//     console.log(`value of i is ${i}`);
+// }
