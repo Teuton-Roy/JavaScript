@@ -31,3 +31,11 @@
 //     }
 //     console.log(`value of i is ${i}`);
 // }
+
+for(let i = 0; i<= 20; i++){
+    if(i == 3){
+        console.log(`Detected ${i}`);
+        continue;
+    }
+    console.log(`value of i is ${i}`);
+}
