@@ -40,3 +40,4 @@ if (Object.keys(emptyObj).length === 0) {
 const ice = 100
 ice <= 80 ? console.log(`Less than 80`) : console.log(`More than 80`);
 
+
