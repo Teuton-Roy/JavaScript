@@ -18,3 +18,15 @@
 // for (const greet of greetings) {
 //     console.log(greet);
 // }
+
+
+//Maps
+
+const map = new Map()
+map.set('IN', 'India')
+map.set('USA', 'United State of America')
+map.set('AUS', 'Australia')
+map.set('Fr', 'France')
+map.set('RUS', 'Russia')
+
+console.log(map);
