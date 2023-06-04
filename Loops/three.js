@@ -40,3 +40,11 @@ map.set('RUS', 'Russia')
 // }
 
 
+//objects are not iterable by for-of loop..
+// const obj = {
+//     'name':'Teuton',
+//     'email':'teu@gmail.com'
+// }
+// for (const [key, value] of obj) {
+//     console.log(key, ":", value);
+// }
