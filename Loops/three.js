@@ -29,4 +29,14 @@ map.set('AUS', 'Australia')
 map.set('Fr', 'France')
 map.set('RUS', 'Russia')
 
-console.log(map);
+// console.log(map);
+
+// for (const key of map) {
+//     console.log(key);
+// }
+
+// for (const [key, value] of map) {
+//     console.log(key, ":", value);
+// }
+
+
