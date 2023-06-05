@@ -6,6 +6,11 @@ const coding = ['C/C++','Java','Python','JavaScript','Go']
 //     console.log(i);
 // })
 
-coding.forEach( (i) => {
-    console.log(i);
-} )
+// coding.forEach( (i) => {
+//     console.log(i);
+// })
+
+// function print(i){
+//     console.log(i);
+// }
+// coding.forEach(print)
