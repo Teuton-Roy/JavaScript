@@ -22,22 +22,22 @@ const coding = ['C/C++','Java','Python','JavaScript','Go']
 
 
 // Array of Objext
-const myCoding = [
-    {
-        languageName:'JavaScript',
-        languageFileName:'js'
-    },
-    {
-        languageName:'Java',
-        languageFileName:'java'
-    },
-    {
-        languageName:'C/C++',
-        languageFileName:'cpp'
-    }
-]
+// const myCoding = [
+//     {
+//         languageName:'JavaScript',
+//         languageFileName:'js'
+//     },
+//     {
+//         languageName:'Java',
+//         languageFileName:'java'
+//     },
+//     {
+//         languageName:'C/C++',
+//         languageFileName:'cpp'
+//     }
+// ]
 
-myCoding.forEach((item) =>{
-    console.log(item.languageName);
-    console.log(item.languageFileName);
-})
+// myCoding.forEach((item) =>{
+//     console.log(item.languageName);
+//     console.log(item.languageFileName);
+// })
