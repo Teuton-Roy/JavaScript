@@ -12,12 +12,15 @@ const coding = ['C/C++','Java','Python','JavaScript','Go']
 
 //for return value.. we using filter.
 
-const myNums= [1,2,3,4,5,6,7,8,9,10]
-const newNums = myNums.filter( (num)=>{
-    // if(num > 5){
-    //     return num;
-    // }
+// const myNums= [1,2,3,4,5,6,7,8,9,10]
+// const newNums = myNums.filter( (num)=>{
+//     // if(num > 5){
+//     //     return num;
+//     // }
 
-    return num > 5
-})
-console.log(newNums);
+//     return num > 5
+// })
+// console.log(newNums);
+
+
+ 
