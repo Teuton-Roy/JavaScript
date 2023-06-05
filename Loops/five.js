@@ -16,6 +16,6 @@ const coding = ['C/C++','Java','Python','JavaScript','Go']
 // coding.forEach(print)
 
 //all parameters..
-coding.forEach( (item, index, arr) => {
-    console.log(item, index, arr);
-})
+// coding.forEach( (item, index, arr) => {
+//     console.log(item, index, arr);
+// })
