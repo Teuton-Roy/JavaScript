@@ -23,4 +23,3 @@ const coding = ['C/C++','Java','Python','JavaScript','Go']
 // console.log(newNums);
 
 
- 
