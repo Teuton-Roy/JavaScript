@@ -82,7 +82,7 @@
     document.querySelectorAll('ul');
 
 
-    How to use for-each loop on nodelist?
+    How to use for-each loop on node-list?
     let ul = document.querySelectorAll('ul');
     ul.forEach(function(ul){
         console.log(ul);
@@ -90,4 +90,30 @@
         ul.style.fontSize = '50px';
     });
 
+    
+
+    How to use loop in HTML-Collection?
+    At first we have to convert HTML-Collection to Array.
+
+    How to convert HTML-Collection to Array?
+    Array.from(HTML-Collection);
+
+    Now we can able to perform the loops on HTML-Collection.
+
+    let ul = document.getElementsByClassName('list-item');
+    let tempList = Array.from(ul); //convert into Array
+    
+    Using for-each loop..
+    tempList.forEach(function(ul){
+        console.log(ul);
+        ul.style.color = 'red';
+        ul.style.fontSize = '50px';
+    });
+
+    Using Map 
+    tempList.map(function(ul){
+        console.log(ul);
+        ul.style.color = 'red';
+        ul.style.fontSize = '50px';
+    });
 */
