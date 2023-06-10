@@ -24,5 +24,16 @@
     div.setAttribute('title', 'myTitle')
     div.style.backgroundColor = 'green'
     div.style.padding = '10px'
+    /*Here I create a div but it doesn't show-up in page beacuse now it's in memory*/
+
+    //So, how to attach child in page 🤔
+
+    //Step-1: create a text node
+    const addText = document.createTextNode('You, bitch!')
+    //Step-2: add this text in div
+    div.appendChild(addText)
+    //Step-3: Attach on document
+    document.body.appendChild(div)
+    
 </script>
 </html>
