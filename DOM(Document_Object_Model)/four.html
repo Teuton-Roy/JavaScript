@@ -6,6 +6,24 @@
     <title>DOM-4</title>
 </head>
 <body style="background-color: #212121; color: #fff;">
-    
+    <ul class="language">
+        <li>C/C++</li>
+    </ul>
 </body>
+<script>
+    //I have one list-item here Now I want add one more list-item..
+    
+    function addLanguage (langName){
+        //step-1: Create one element
+        const li = document.createElement('li')
+        //step-2: add the element
+        li.innerHTML = `${langName}`
+        //step:- Now attach
+        const add = document.querySelector('.language')
+        add.appendChild(li)
+    }
+    addLanguage('Java')
+    addLanguage('JavaScript')
+
+</script>
 </html>
