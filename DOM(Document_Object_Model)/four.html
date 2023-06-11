@@ -13,21 +13,39 @@
 <script>
     //I have one list-item here Now I want add one more list-item..
     
+    // function addLanguage (langName){
+    //     //step-1: Create one element
+    //     const li = document.createElement('li')
+    //     //step-2: add the element
+    //     li.innerHTML = `${langName}`
+    //     //step:- Now attach
+    //     const add = document.querySelector('.language')
+    //     add.appendChild(li)
+    // }
+    // addLanguage('Java')
+    // addLanguage('JavaScript')
+    //for adding something the above code is okay but when we add anything
+    //in lagre data like: 1000 list-item or 100000 list-item then it's not okay
+    //Because, every time it adding one element in the end, it traverse the whole item-list so it is not good for performance
+
+
+    //Now, the optimize way..
+    //here we do not traverse the whole list-item just create a new TextNode and add it in list-item
     function addLanguage (langName){
-        //step-1: Create one element
+        //step-1: create list item
         const li = document.createElement('li')
-        //step-2: add the element
-        li.innerHTML = `${langName}`
-        //step:- Now attach
+        //step-2: create new node
+        const text = document.createTextNode(langName)
+        //step-3: add text in list-item
+        li.appendChild(text)
+        //step-4: attach in document
         const add = document.querySelector('.language')
         add.appendChild(li)
     }
     addLanguage('Java')
     addLanguage('JavaScript')
-    //for adding something the above code is okay but when we add anything
-    //in lagre data like: 1000 list-item or 100000 list-item then it's not okay
-    //Because, every time it adding one element in the end, it traverse the whole item-list so it is not good for performance
-
+    addLanguage('Python')
+    addLanguage('GoLang')
 
 </script>
 </html>
