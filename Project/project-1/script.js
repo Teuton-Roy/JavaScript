@@ -15,5 +15,9 @@ buttons.forEach((button) =>{
     button.addEventListener('click', (e)=>{
         console.log(e);
         console.log(e.target);
+        //select the id and changeing the color using DOM
+        if (e.target.id === 'grey') {
+            body.style.backgroundColor = e.target.id;
+        }
     })
 })
