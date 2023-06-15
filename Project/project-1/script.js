@@ -6,3 +6,8 @@ const buttons = document.querySelectorAll('.button')
 
 //Select Body
 const body = document.querySelector('body')
+
+//apply for-each loop on buttons cause it's nodelist.
+buttons.forEach((button) =>{
+    console.log(button);
+})
