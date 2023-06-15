@@ -4,6 +4,10 @@
 const buttons = document.querySelectorAll('.button')
 // console.log(buttons);
 
+//select tags for when I selct white then it change the tag color
+const h1 = document.querySelector('h1')
+const h2 = document.querySelector('h2')
+
 //Select Body
 const body = document.querySelector('body')
 
@@ -21,6 +25,8 @@ buttons.forEach((button) =>{
         }
         if (e.target.id === 'white') {
             body.style.backgroundColor = e.target.id;
+            h1.style.color = 'black'
+            h2.style.color = 'black'
         }
         if (e.target.id === 'blue') {
             body.style.backgroundColor = e.target.id;
