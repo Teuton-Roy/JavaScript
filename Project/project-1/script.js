@@ -9,5 +9,11 @@ const body = document.querySelector('body')
 
 //apply for-each loop on buttons cause it's nodelist.
 buttons.forEach((button) =>{
-    console.log(button);
+    // console.log(button);
+    //now add event-listener on every button
+
+    button.addEventListener('click', (e)=>{
+        console.log(e);
+        console.log(e.target);
+    })
 })
