@@ -35,7 +35,7 @@ nav{
     margin: 0 auto;
     width: 575px;
     height: 800px;
-    background-color: #797978;
+    background-color: #545454;
     padding-left: 30px;
   }
   #height,
@@ -69,7 +69,6 @@ nav{
     color: #212121;
     text-decoration: none;
     border: 2px solid #212121;
-  
     font-size: 25px;
   }
   
@@ -81,4 +80,5 @@ nav{
   h3{
     color: #212121;
   }
+
   
