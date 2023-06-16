@@ -55,6 +55,7 @@ nav{
     margin-left: 90px;
     margin-top: 20px;
     color: rgb(241, 241, 241);
+    cursor: pointer;
   }
   
   button {
@@ -75,6 +76,9 @@ nav{
   h1 {
     padding-left: 15px;
     padding-top: 25px;
-    
+    color: #212121;
+  }
+  h3{
+    color: #212121;
   }
   
