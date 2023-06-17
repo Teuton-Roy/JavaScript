@@ -29,7 +29,7 @@ function checkGuess(guess){
 
 
 function displayGuess(guess){
-    
+
 }
 
 
@@ -37,3 +37,10 @@ function displayMessage(message){
     //print message
 }
 
+function newGame(){
+
+}
+
+function endGame(){
+    
+}
