@@ -19,10 +19,21 @@ let playGame = true;
 
 function validateGuess(guess){
     //check for the number is valid or not, negative or not
-    
+
 }
 
 function checkGuess(guess){
     //Avobe function we got validation, here we print message that value is correct or not
 
 }
+
+
+function displayGuess(guess){
+    
+}
+
+
+function displayMessage(message){
+    //print message
+}
+
