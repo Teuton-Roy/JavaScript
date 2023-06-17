@@ -17,6 +17,17 @@ let numOfGuess = 1
 
 let playGame = true;
 
+//check you are available for the playing game
+
+if(playGame){
+    submit.addEventListener('click', (e)=>{
+        e.preventDefault()
+        const guess = parseInt(userInput.value)
+        validateGuess(guess)
+    })
+}
+
+
 function validateGuess(guess){
     //check for the number is valid or not, negative or not
 
@@ -42,5 +53,5 @@ function newGame(){
 }
 
 function endGame(){
-    
+
 }
