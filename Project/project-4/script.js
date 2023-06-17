@@ -23,6 +23,7 @@ if(playGame){
     submit.addEventListener('click', (e)=>{
         e.preventDefault()
         const guess = parseInt(userInput.value)
+        console.log(guess);
         validateGuess(guess)
     })
 }
@@ -30,7 +31,26 @@ if(playGame){
 
 function validateGuess(guess){
     //check for the number is valid or not, negative or not
-
+    if (isNaN(guess)) {
+        alert(`Please enter a valid number`)
+    }
+    else if(guess < 1){
+        alert(`Please enter a number more than 1`)
+    }
+    else if(guess > 100){
+        alert(`Please enter number less then 100`)
+    }
+    else{
+        prevGuess.push(guess)
+        if(numOfGuess > 11){
+            displayGuess(guess)
+            displayMessage(`Game Over. Random number was ${randomNumber}`)
+            endGame();
+        }else{
+            displayGuess(guess)
+            checkGuess(guess)
+        }
+    }
 }
 
 function checkGuess(guess){
