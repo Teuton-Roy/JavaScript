@@ -55,7 +55,16 @@ function validateGuess(guess){
 
 function checkGuess(guess){
     //Avobe function we got validation, here we print message that value is correct or not
-
+    if (guess === randomNumber) {
+        displayMessage(`You guessed it right`)
+        endGame()
+    }
+    else if(guess < randomNumber){
+        displayMessage(`Number is TOOO low`)
+    }
+    else if(guess > randomNumber){
+        displayMessage(`Number is TOOO High`)
+    }
 }
 
 
