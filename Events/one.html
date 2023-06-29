@@ -22,9 +22,14 @@
 
 <script>
       //onclick
-      document.getElementById("owl").onclick = function(){
-        alert("gandu")
-      }
+    //   document.getElementById("owl").onclick = function(){
+    //     alert("gandu")
+    //   }
+
+    //onclick using eventListener
+    document.getElementById("owl").addEventListener('click', (e)=>{
+        alert(`gandu`)
+    },false)
 </script>
 
 </html>
