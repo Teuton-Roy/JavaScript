@@ -12,9 +12,12 @@
 </body>
 <script>
     //set Interval
-    const sayDate = () =>{
-        console.log(`Magi`,Date.now())
+    const sayDate = (str) =>{
+        console.log(str, Date.now())
     }
-    setInterval(sayDate,5000)
+    const InterId = setInterval(sayDate, 1000, 'Hi')
+
+    //clear Interval
+    clearInterval(InterId)
 </script>
 </html>
