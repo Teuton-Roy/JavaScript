@@ -12,11 +12,15 @@ let interId
 const startChangingColor =()=>{
     function changeBgColor(){
         document.body.style.backgroundColor = randomColor()
-    } 
-    interId = setInterval(changeBgColor, 1)
+    }
+    
+    if (!interId) {
+        interId = setInterval(changeBgColor, 1)
+    }
 }
 const stopChangingColor =() =>{
     clearInterval(interId)
+    interId = null
 }
 
 document.querySelector('#start').addEventListener(`click`, startChangingColor)
